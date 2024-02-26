@@ -14,7 +14,7 @@
 
     <h1>A-B Repeat Plugin</h1>
 
-    <p>This plugin allows you loop a segment of media by right clicking on the time slider rail to set two markers.
+    <p>This plugin allows you loop a segment of media by right clicking on the time slider rail to set two markers.</p>
 
     <h2>Video Player</h2>
 
@@ -58,8 +58,8 @@
 
 	for (var i = 0, total = mediaElements.length; i < total; i++) {
 		new MediaElementPlayer(mediaElements[i], {
-            markerColors: ['#FF2D00', '#3235FF'],
-            markerWidth: 1,
+			markerColors: ['#FF2D00', '#3235FF'],
+			markerWidth: 1,
 			features: ['playpause', 'current', 'progress', 'duration', 'volume', 'fullscreen', 'abrepeat'],
 		});
 	}
