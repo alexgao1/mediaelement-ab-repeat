@@ -29,5 +29,5 @@ The element is named `setmarker` and its detail will contain two properties.
 |marker|position|
 |--|--|
 |0 or 1 (representing either marker A or marker B)|the time in seconds (the result of [mejs.Utils.timeCodeToSeconds](https://github.com/mediaelement/mediaelement/blob/master/docs/utils.md#time))|
-
-
+  
+When the markers are cleared by right clicking when both markers are already set, an event `resetmarkers` is dispatched from the slider element.

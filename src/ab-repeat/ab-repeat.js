@@ -104,6 +104,7 @@ Object.assign(MediaElementPlayer.prototype, {
 			marker.dataset.timeValue = null;
 			this.nextModifiedMarker = 0;
 		}
+		this.slider.dispatchEvent(new CustomEvent('resetmarkers'));
 	},
 	/**
 	 * Set marker position in the progress bar
